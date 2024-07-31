@@ -1,0 +1,101 @@
+/* Login.css */
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+    background-color: #f0f2f5;
+}
+
+.heading{
+    text-align:center;
+}
+
+form {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.form-content {
+    margin-bottom: 1rem;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding:0.5rem;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.form-button {
+    display:flex;
+    justify-content: center;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius:4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width:100%;
+    font-size:18px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+form .forgot-container{
+    display:flex;
+    justify-content: space-between;
+    font-size: 18px;
+    margin:-15px 0 15px;
+}
+
+.forgot-container label input{
+    accent-color: #ffffff;
+    margin-right: 4px;
+    margin-top: 10px;
+}
+
+.forgot-container a{
+    color:black;
+    text-decoration: none;
+    margin-top:10px;
+}
+
+.forgot-container a:hover{
+    text-decoration:underline;
+}
+form .register-container{
+    font-size: 16px;
+    text-align: center;
+    margin:20px 0 15px;
+
+}
+
+.register-container p a{
+    color:black;
+    text-decoration:none;
+    font-weight: 600;
+}
+
+.register-container p a:hover{
+    text-decoration:underline;
+}
+
